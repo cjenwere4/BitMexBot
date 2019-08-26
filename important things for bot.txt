@@ -1,0 +1,11 @@
+Road Map for Bitmex Bot
+
+- create chrome extension to display info
+- when all is finished run it as a background process on the school computers
+
+Current Testnet Account ("heldsnas)
+Secret Key: cMwoVdj8rWEIEpjVH2kLVLx_07nKc5r6bqt8Xk_qNTfRAHqg
+
+
+Main Bot Account (will switch over when old enough)
+Secret Key: lQ2ZJ5Mr5SPJ9NexgnTkD18Pcjg3M7vMt9hD8a94nI-kIqm3
