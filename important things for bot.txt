@@ -1,6 +1,8 @@
 Road Map for Bitmex Bot
 
-- create chrome extension to display info
+- create chrome extension for a notification system (Display sentiment and bitcoin price, 
+	onclick of notification will take you to bitmex login page)
+
 - when all is finished run it as a background process on the school computers
 
 Current Testnet Account ("heldsnas)

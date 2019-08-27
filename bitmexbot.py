@@ -93,16 +93,16 @@ def getChats(dataArray, functionCallCount):
     else:
         updateMsg = "Current Trader Sentiment on BitMex: " + str(sentimentAvg) # this will send every 3 minutes
         if (sentimentAvg < .75):
-            sentimentMsg = " (Bearish). (Next update in 5 minutes)."
+            sentimentMsg = " (Bearish)."
             updateMsg = updateMsg + sentimentMsg
         elif (sentimentAvg >= .75 and sentimentAvg < 1.25):
-            sentimentMsg = " (Neutral). (Next update in 5 minutes)."
+            sentimentMsg = " (Neutral)."
             updateMsg = updateMsg + sentimentMsg
         elif (sentimentAvg >= 1.25 and sentimentAvg < 1.45):
-            sentimentMsg = " (Bullish). (Next update in 5 minutes)."
+            sentimentMsg = " (Bullish)."
             updateMsg = updateMsg + sentimentMsg
         else:
-            sentimentMsg = " Bitcoin to 100k EOY! (Next update in 4 minutes)."
+            sentimentMsg = " (Very Bullish)"
             updateMsg = updateMsg + sentimentMsg
         
     
@@ -143,5 +143,4 @@ def do_every(period,f,*args):
         time.sleep(next(g))
         f(*args)
 
-getChats(dataArray, functionCallCount) # intial count 
 do_every(240, getChats, dataArray, functionCallCount) # set interval every 4 minutes
