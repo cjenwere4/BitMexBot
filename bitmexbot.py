@@ -102,7 +102,7 @@ def getChats(dataArray, functionCallCount):
             sentimentMsg = " (Bullish)."
             updateMsg = updateMsg + sentimentMsg
         else:
-            sentimentMsg = " (Very Bullish)"
+            sentimentMsg = " (Very Bullish). "
             updateMsg = updateMsg + sentimentMsg
         
     
