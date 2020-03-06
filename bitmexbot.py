@@ -17,7 +17,7 @@ def sendChat(dataArray):
     apiSecret = 'cMwoVdj8rWEIEpjVH2kLVLx_07nKc5r6bqt8Xk_qNTfRAHqg'
     verb = 'POST'
     path = '/api/v1/chat'
-    expires = 1598374259 # 8/25/2020
+    expires = 1598374259 # 8/25/2020.
     msg = dataArray[4]
     dict = {
         "message": msg,
